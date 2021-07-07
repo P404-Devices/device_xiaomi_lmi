@@ -145,6 +145,10 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
+    
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
 
 # Configstore
 PRODUCT_PACKAGES += \
