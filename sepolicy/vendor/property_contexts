@@ -17,6 +17,14 @@ ro.boot.fpsensor                            u:object_r:vendor_fingerprint_prop:s
 ro.hardware.fp.                             u:object_r:vendor_fingerprint_prop:s0
 vendor.fps_hal.                             u:object_r:vendor_fingerprint_prop:s0
 
+# IMEI
+ro.vendor.oem.imei                          u:object_r:deviceid_prop:s0
+ro.vendor.oem.imei1                         u:object_r:deviceid_prop:s0
+ro.vendor.oem.imei2                         u:object_r:deviceid_prop:s0
+ro.vendor.oem.meid                          u:object_r:deviceid_prop:s0
+ro.vendor.oem.sno                           u:object_r:deviceid_prop:s0
+ro.vendor.oem.psno                          u:object_r:deviceid_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay.ifaa                 u:object_r:vendor_payment_security_prop:s0
 
