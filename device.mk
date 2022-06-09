@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/xiaomi/cmi/cmi-vendor.mk)
+$(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 
 # HIDL HALs
 $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.cmi
+    android.hardware.biometrics.fingerprint@2.3-service.lmi
 
 PRODUCT_PACKAGES += \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
@@ -206,11 +206,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    P404CmiSettings \
-    P404CmiSystemUI \
+    P404lmiSettings \
+    P404lmiSystemUI \
     FrameworksResTarget \
-    CmiFrameworks \
-    CmiSystemUI \
+    lmiFrameworks \
+    lmiSystemUI \
     WifiResTarget
 
 # Partitions
@@ -260,7 +260,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi_cmi
+    vendor.qti.hardware.vibrator.service.xiaomi_lmi
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml

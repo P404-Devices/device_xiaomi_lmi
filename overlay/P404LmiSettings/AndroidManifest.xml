@@ -14,10 +14,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.p404.systemui.cmi">
+    package="com.p404.settings.lmi">
 
     <overlay
         android:isStatic="true"
         android:priority="800"
-        android:targetPackage="com.android.systemui" />
+        android:targetPackage="com.android.settings" />
 </manifest>
