@@ -206,11 +206,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
-    P404lmiSettings \
-    P404lmiSystemUI \
+    P404LmiFrameworks \
+    P404LmiSettings \
+    P404LmiSystemUI \
     FrameworksResTarget \
-    lmiFrameworks \
-    lmiSystemUI \
+    LmiFrameworks \
+    LmiSystemUI \
     WifiResTarget
 
 # Partitions
