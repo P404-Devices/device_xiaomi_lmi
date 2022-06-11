@@ -189,6 +189,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
+    
 # Motor
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
