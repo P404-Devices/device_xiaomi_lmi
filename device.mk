@@ -195,6 +195,9 @@ PRODUCT_PACKAGES += \
     
 # Motor
 PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0-service.xml
+
+PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
 
 # Namespaces
