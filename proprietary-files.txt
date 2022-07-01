@@ -67,6 +67,12 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
+# ADSPRPC
+vendor/bin/dspservice
+vendor/bin/loadalgo
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
+vendor/lib/vendor.qti.hardware.dsp@1.0.so
+
 # Adreno
 vendor/firmware/a650_gmu.bin
 vendor/firmware/a650_sqe.fw
