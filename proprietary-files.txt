@@ -646,9 +646,9 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.kona.so
 
 # Display Calibration
-vendor/etc/ltm_config_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/mdss_dsi_j2_p2_1_38_0c_0a_dsc_cmd_mi.xml
-vendor/etc/qdcm_calib_data_xiaomi_38_0c_0a_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/ltm_config_xiaomi_j11_38_08_0a_fhd_panel.xml
+vendor/etc/mdss_dsi_j11_38_08_0a_fhd_cmd_mi.xml
+vendor/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml
 
 # Display-Hardware - from LA.UM.9.12.r1-14100.02-SMxx50.0
 vendor/lib64/libdisp-aba.so|902839da31464e54bd4756747db2dd7ad867484f
@@ -663,6 +663,17 @@ vendor/lib64/libsdm-diag.so|57e8b57e52b98a0a151434414756fcf91147a511
 vendor/lib64/libsdm-disp-vndapis.so|2f1abd975b1f1dbabcc410e56c29ac296adcc411
 vendor/lib64/libsdmextension.so|d89a38b3f8ecc283b75621a7702bad8d8417d0f0
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
+
+# Display postprocessing
+vendor/bin/hw/vendor.display.color@1.0-service
+vendor/etc/init/vendor.display.color@1.0-service.rc
+vendor/lib64/vendor.display.color@1.0.so 
+vendor/lib64/vendor.display.color@1.1.so 
+vendor/lib64/vendor.display.color@1.2.so 
+vendor/lib64/vendor.display.color@1.3.so 
+vendor/lib64/vendor.display.color@1.4.so 
+vendor/lib64/vendor.display.color@1.5.so 
+vendor/lib64/vendor.display.postproc@1.0.so
 
 # DPM
 vendor/bin/dpmQmiMgr
