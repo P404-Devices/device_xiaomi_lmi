@@ -3,3 +3,5 @@ dontaudit {
 } default_prop:file r_file_perms;
 
 dontaudit system_server vendor_default_prop:file { read };
+
+dontaudit hal_motor_default device:chr_file { read write };

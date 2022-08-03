@@ -21,3 +21,5 @@ allow hal_motor_default mnt_vendor_file:dir { search };
 vndbinder_use(hal_motor_default)
 
 allow hal_motor_default property_socket:sock_file { write };
+
+allow hal_motor_default init:unix_stream_socket { connectto };
