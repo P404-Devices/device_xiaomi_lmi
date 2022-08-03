@@ -1,0 +1,5 @@
+dontaudit {
+  rild
+} default_prop:file r_file_perms;
+
+dontaudit system_server vendor_default_prop:file { read };
